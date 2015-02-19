@@ -187,7 +187,6 @@ public class MainActivity extends ActionBarActivity {
     }
     void actualizarResultado()
     {
-
         TextView tv = (TextView)findViewById(R.id.textView);
 
         numero1=Float.parseFloat(tv.getText().toString());
