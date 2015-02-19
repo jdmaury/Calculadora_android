@@ -30,7 +30,7 @@ public class MainActivity extends ActionBarActivity {
         super.onSaveInstanceState(outState);
         TextView tv = (TextView)findViewById(R.id.textView);
         outState.putFloat("resultado",Float.parseFloat(tv.getText().toString()));
-     //   outState.putInt("pant",pant);
+        //   outState.putInt("pant",pant);
         outState.putInt("op",op);
         outState.putInt("enable",enable);
 
@@ -190,9 +190,7 @@ public class MainActivity extends ActionBarActivity {
 
         TextView tv = (TextView)findViewById(R.id.textView);
 
-            numero1=Float.parseFloat(tv.getText().toString());
-
-
+        numero1=Float.parseFloat(tv.getText().toString());
 
         if(op==1)
         {
